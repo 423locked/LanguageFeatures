@@ -1,0 +1,22 @@
+﻿@model List<string>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=display-width" />
+    <title>Language Features</title>
+</head>
+<body>
+    <ul>
+        @foreach (string el in Model)
+        {
+            <li>@el</li>
+        }
+    </ul>
+</body>
+</html>
